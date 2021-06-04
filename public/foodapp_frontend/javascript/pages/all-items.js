@@ -2,7 +2,7 @@ let sampleCart = [10, 16]
 let getAllItems = new Promise((resolve,reject) => {
     
     $.ajax({
-        url:"http://localhost:1337/products?",
+        url:"http://localhost:1337/products",
         type:"GET",
         success: (result) => resolve(result),
         error: (error) => {
