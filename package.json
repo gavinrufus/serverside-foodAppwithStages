@@ -9,9 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "0.21.18",
+    "path": "^0.12.7",
     "sqlite3": "5.0.0",
     "strapi": "3.6.2",
     "strapi-admin": "3.6.2",
