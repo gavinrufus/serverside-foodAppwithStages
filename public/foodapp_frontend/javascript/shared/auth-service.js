@@ -1,3 +1,4 @@
+
 let loginCheck = () => JSON.parse(window.sessionStorage.getItem("userId"));
 
 let setCookie = (key, value) => document.cookie = `${key}=${value}`;
@@ -32,6 +33,7 @@ let signOut = () => {
   setCookie('jwt', '');
   sessionStorage.clear();
   console.log('Successfully signed out')
+  window.location.href ='http://localhost:3000/home';
 }
 
 loginOrRegister();

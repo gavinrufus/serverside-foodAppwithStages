@@ -11,18 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "products": {
-      "collection": "product"
+    "product": {
+      "model": "product"
     },
     "quantity": {
-      "type": "integer",
-      "min": 1,
-      "required": true,
-      "default": 1
+      "type": "integer"
     },
     "price": {
-      "type": "decimal",
-      "required": true
+      "type": "decimal"
     }
   }
 }

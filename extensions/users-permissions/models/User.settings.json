@@ -59,8 +59,9 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "order": {
-      "model": "order"
+    "orders": {
+      "via": "users_permissions_user",
+      "collection": "order"
     }
   }
 }

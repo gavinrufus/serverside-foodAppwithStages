@@ -4,19 +4,20 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "start": "node frontend-server.js",
+    "start": "node forntend_server.js",
     "develop": "strapi develop",
     "start-strapi": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
     "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "knex": "0.21.18",
     "path": "^0.12.7",
-    "sqlite3": "5.0.0",
+    "sqlite3": "^5.0.0",
     "strapi": "3.6.2",
     "strapi-admin": "3.6.2",
     "strapi-connector-bookshelf": "3.6.2",
