@@ -150,12 +150,12 @@ let displayCartItems = (cartItems, productToCartMap, quantityMap) => {
   } else {
     let cartPage = document.getElementById('cart-page')
     cartPage.innerHTML = `
-    <h5>
-      Products are going out of stock!!!
-    </h5>
-    <h5>
-      Grab your's soon
-    </h5>
+    <h3>
+      No items are added to the cart!
+    </h3><br>
+    <h3>
+      check out our amazing menu and add your favourites to the cart
+    </h3>
     `;
   }
 }
