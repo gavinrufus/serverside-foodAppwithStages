@@ -130,12 +130,8 @@ let displayCartItems = (cartItems, productToCartMap, quantityMap) => {
   } else {
     let cartPage = document.getElementById('cart-page')
     cartPage.innerHTML = `
-    <h5>
-      Products are going out of stock!!!
-    </h5>
-    <h5>
-      Grab your's soon
-    </h5>
+    <h5>The cart is empty</h5>
+    <h5>Make sure you grab our amazing desserts and drinks!</h5>
     `;
   }
 }

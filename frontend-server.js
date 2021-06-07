@@ -7,6 +7,7 @@ const port = process.env.FRONTEND_PORT || 3000; // Getting port
 
 app.use(express.static("public"));
 
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, './public/foodapp_frontend/html/home.html')));
 app.get('/home', (req, res) => res.sendFile(path.join(__dirname, './public/foodapp_frontend/html/home.html')));
 app.get('/about-us', (req, res) => res.sendFile(path.join(__dirname, './public/foodapp_frontend/html/about-us.html')));
 app.get('/all-items', (req, res) => res.sendFile(path.join(__dirname, './public/foodapp_frontend/html/all-items.html')));
