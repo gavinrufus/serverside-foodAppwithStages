@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "start": "node forntend_server.js",
+    "start": "node frontend_server.js",
     "develop": "strapi develop",
     "start-strapi": "strapi start",
     "build": "strapi build",
